@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Just View</string>
+    <string name="home_label">Home</string>
+    <string name="do_favorite_button">Favorite</string>
+    <string name="not_favorite_button">Not Favorite</string>
+    <string name="detail_label">Detail</string>
+    <string name="img_desc">View Image</string>
+    <string name="favorite_button">Favorite Views</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="favorite_label">Favorite</string>
+    <string name="search_label">Search</string>
+    <string name="no_data">Nothing to show, please add one</string>
+    <string name="message_confirmation">Deleting data, continue?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+</resources>

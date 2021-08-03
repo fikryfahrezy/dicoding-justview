@@ -1,0 +1,41 @@
+dependencies {
+    lintChecks project(':lint')
+
+//    Support libraries
+    implementation "androidx.core:core-ktx:$core_ktx_version"
+    implementation "androidx.appcompat:appcompat:$appcompat_version"
+    implementation "androidx.legacy:legacy-support-v4:$legacy_support_version"
+    implementation "androidx.constraintlayout:constraintlayout:$constraint_layout_version"
+    implementation "androidx.multidex:multidex:$multidex_version"
+
+//    Testing
+    testImplementation "junit:junit:$junit_version"
+    androidTestImplementation "androidx.test.ext:junit:$jetpack_junit_version"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$expresso_testing_version"
+    androidTestImplementation "androidx.annotation:annotation:$annotation_version"
+
+//    UI Library
+    implementation "com.google.android.material:material:$material_version"
+    implementation "com.github.bumptech.glide:glide:$glide_version"
+
+//    Navigation
+    implementation "androidx.navigation:navigation-fragment-ktx:$jetpack_navigation_version"
+    implementation "androidx.navigation:navigation-ui-ktx:$jetpack_navigation_version"
+
+//    Android Lifecycle
+    implementation "androidx.lifecycle:lifecycle-extensions:$jetpack_lifecycle_ext_version"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$jetpack_lifecycle_vm_version"
+//    used for Flow Coroutine
+    api "androidx.lifecycle:lifecycle-livedata-ktx:$jetpack_lifecycle_ld_version"
+
+//    Koin Dependency Injection
+    implementation "org.koin:koin-core:$koin_version"
+    implementation "org.koin:koin-android:$koin_version"
+    implementation "org.koin:koin-android-viewmodel:$koin_version"
+
+//    Logging
+    implementation "com.jakewharton.timber:timber:$timber_version"
+
+//    Debugging
+    debugImplementation "com.squareup.leakcanary:leakcanary-android:$leakcanary_version"
+}
